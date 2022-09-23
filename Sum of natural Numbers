@@ -1,0 +1,17 @@
+Write a program to find the sum of first N natural numbers.
+Input & Output Format:
+Input consists of one integer.
+Output consists of a integer.
+Sample Input & Output:
+5
+15
+
+----------------Solution---------------------
+n=int(input())
+i=1
+s=0
+while(i<=n):
+    s=s+i
+    i+=1
+print(s)
+    
