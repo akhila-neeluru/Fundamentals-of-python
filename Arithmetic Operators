@@ -1,0 +1,30 @@
+Write a program to perform all the arithmetic operation including floor division by using a function.
+Input & Output Format:
+Input consists of two integers. 
+Output consists of 6 integers including add, sub, mul, mod, rem, floor division.
+Sample Input :
+5
+2
+Sample Output:
+7
+3
+10
+2.5
+2
+1
+
+-------------------------Solution--------------------
+n1=int(input())
+n2=int(input())
+a=n1+n2
+print(a)
+s=n1-n2
+print(s)
+m=n1*n2
+print(m)
+d=n1/n2
+print(d)
+f=n1//n2
+print(f)
+r=n1%n2
+print(r)
